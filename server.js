@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 3000;
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-// app.use(express.static('public/assets')); //tried to incorperate css/images
+// app.use('static',express.static('public')); //tried to incorperate css/images
 
 // Basic routes
 require('./app/routing/apiRoutes.js')(app); 
