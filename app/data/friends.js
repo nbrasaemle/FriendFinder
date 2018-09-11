@@ -3,7 +3,14 @@ var friendArray = [
 		name: "Gandalf",
 		photo: "https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2012/09/Gandalf_a_l.jpg",
 		scores: [
-            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
             "4",
             "4"
         ]
@@ -12,9 +19,16 @@ var friendArray = [
 		name: "Frodo",
 		photo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/FrodoBaggins.jpg/250px-FrodoBaggins.jpg",
 		scores: [
-            "1",
-            "4",
-            "2"
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
         ]
     },
     {
@@ -22,14 +36,28 @@ var friendArray = [
 		photo: "https://vignette.wikia.nocookie.net/lotr/images/0/0a/Pippinprintscreen.jpg/revision/latest?cb=20060310083048",
 		scores: [
             "2",
-            "3",
-            "5"
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
         ]	
     },
     {
 		name: "Merry",
 		photo: "https://i.pinimg.com/736x/d1/0e/e4/d10ee4039c174c44a0dfaffd37821ced--best-deals-rats.jpg",
 		scores: [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
             "5",
             "5",
             "5"
@@ -39,6 +67,13 @@ var friendArray = [
 		name: "Sam",
 		photo: "https://vignette.wikia.nocookie.net/lotr/images/4/45/Samwise2.jpg/revision/latest?cb=20060508090312",
 		scores: [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
             "1",
             "1",
             "1"
