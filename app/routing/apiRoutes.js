@@ -43,24 +43,24 @@ module.exports = function (app) {
         var bestMatchIndex = 0;
         var bestMatchDifference = 40;
 
-        for (var i = 0; i < friends.length; i++) {
-            var difference = 0;
+        for (var i = 0; i < friendData.length; i++) {
+            var totalDifference = 0;
 
-            for (var index = 0; index < friends[i].scores.length; index++) {
-                var differenceScore = Math.abs(friends[i].scores[index] - compareFriend.scores[index]);
-                difference += differenceScore;
+            for (var index = 0; index < friendData[i].scores.length; index++) {
+                var differenceScore = Math.abs(friendData[i].scores[index] - compareFriend.scores[index]);
+                totalDifference += differenceScore;
             }
 
 
             if (totalDifference < bestMatchDifference) {
                 bestMatchIndex = i;
-                bestMatchDifference = difference;
+                bestMatchDifference = totalDifference;
             }
         }
 
-        bestMatch = friends[bestMatchIndex];
+        bestMatch = friendData[bestMatchIndex];
 
-        friends.push(compareFriend);
+        friendData.push(compareFriend);
 
         res.json(bestMatch);
     });
